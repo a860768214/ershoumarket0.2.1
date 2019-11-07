@@ -68,6 +68,15 @@
                enableSelectByExample="false"
                selectByExampleQueryId="false">
         </table>
+
+        <table tableName="item" domainObjectName="ItemDo"
+               enableCountByExample="false"
+               enableUpdateByExample="false"
+               enableDeleteByExample="false"
+               enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+
 <!--        &ndash;&gt;-->
 <!--        <table tableName="promo" domainObjectName="PromoDo"-->
 <!--               enableCountByExample="false"-->
