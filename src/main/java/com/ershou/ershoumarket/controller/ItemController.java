@@ -28,7 +28,7 @@ public class ItemController
                                        @RequestParam(name = "description")String description,
                                        @RequestParam(name = "price") BigDecimal price,
                                        @RequestParam(name = "imgUrl")String imgUrl
-                                       )
+    )
     {
         //封装service请求来封装商品
         ItemModel itemModel=new ItemModel();

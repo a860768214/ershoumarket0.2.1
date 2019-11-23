@@ -21,6 +21,7 @@ public class ErshoumarketApplication
     @RequestMapping("/")
     public  String home()
     {
+        //测试
         UserDo userDo=userDoMapper.selectByPrimaryKey(1);
         if(userDo==null)
         {

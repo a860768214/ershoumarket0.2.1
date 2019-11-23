@@ -9,6 +9,17 @@ public class ItemVO
     private BigDecimal price;
     private String description;
     private String imgUrl;
+    private String saleplace;
+
+    public String getSaleplace()
+    {
+        return saleplace;
+    }
+
+    public void setSaleplace(String saleplace)
+    {
+        this.saleplace = saleplace;
+    }
 
     public Integer getId()
     {

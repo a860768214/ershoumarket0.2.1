@@ -104,6 +104,7 @@ public class UserController
 //        int randomInt=random.nextInt(99999);
 //        randomInt+=10000;
 //        String otpCode=String.valueOf(randomInt);
+//        测试用固定验证码
         String otpCode="123456";
         //将OTP验证码和手机号关联
         //使用httpsession绑定手机号和OTPCode
